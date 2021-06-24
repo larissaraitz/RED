@@ -1,0 +1,36 @@
+/* NAV */
+.contact-line{
+    height: 20px;
+    background-color: #fff;
+}
+.navbar-conf{
+    background-color: transparent;
+    padding: 0px;
+    color: #fff;
+    border-bottom: 1px solid #ffffff40;
+}
+.navbar-conf .navbar-brand{
+    padding: 0;
+}
+.navbar-conf .nav-item{
+    margin: 0px 15px;
+    padding: 30px 0;
+}
+.navbar-conf .nav-item:hover{
+    border-bottom: 1px solid #ffffffd0;
+}
+.navbar-conf .nav-link{
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0px;
+    margin: 0px;
+}
+.navbar-conf .bi{
+    padding: 10px;
+}
+
+/* BANNER */
+
+.carousel-conf.carousel-inner{
+    height: 100vh;
+}
