@@ -1,7 +1,25 @@
+@font-face {
+    font-family: "Nunito";
+    src: url("../font/Nunito-Regular.ttf");
+  }
+html *
+{
+   font-family: Nunito, sans-serif !important;
+}
+.container{
+    max-width: 1000px;
+}
 /* NAV */
 .contact-line{
     height: 20px;
     background-color: #fff;
+}
+.title-banner{
+    position: absolute;
+    top: 30%;
+    color: #fff;
+    left: 15%;
+    width: 400px;
 }
 .navbar-conf{
     background-color: transparent;
@@ -34,3 +52,61 @@
 .carousel-conf.carousel-inner{
     height: 100vh;
 }
+
+/* PRODUTOS */
+
+.produtos-conf .bg-azul{
+    background: rgb(65,185,167);
+    background: linear-gradient(90deg, rgba(65,185,167,1) 0%, rgba(28,71,132,1) 85%);
+    height: 400px;
+    width: 100%;
+}
+
+.produtos-conf .bg-azul h2{
+    color: #fff;
+    padding-left: 15%;
+    padding-top: 50px;
+    font-size: 36px;
+}
+
+.produtos-conf .itens-conf{
+    margin-top: -200px;
+    box-shadow: 0px 0px 15px rgb(2 2 2 / 17%);
+}
+
+.produtos-conf .itens-conf .col-sm{
+    padding: 0;
+}
+
+.produtos-conf .itens-conf .item-conf{
+    padding: 20px 25px;
+}
+
+.produtos-conf .itens-conf .item-conf.azul{
+    background-color: #1d4885;
+    color: #fff;
+}
+
+.produtos-conf .itens-conf .item-conf h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.produtos-conf .itens-conf .item-conf p{
+    font-size: 14px;
+    color: #bbb;
+}
+.produtos-conf .itens-conf .item-conf a{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.img-itens{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
